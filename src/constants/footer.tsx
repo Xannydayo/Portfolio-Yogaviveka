@@ -19,7 +19,7 @@ export const FOOTER_ITEMS = [
   },
   {
     icon: <FiGithub size={ICON_SIZE} />,
-    href: "https://github.com/Xannydesu",
+    href: "https://github.com/Xannydayo",
     ariaLabel: "GitHub",
     target: "_blank",
     rel: "noopener noreferrer",
@@ -30,7 +30,7 @@ export const FOOTER_LINKS = [
   {
     label: "Source Code",
     toolTip: "This website is open source.",
-    url: "https://github.com/Xannydesu/",
+    url: "https://github.com/Xannydayo/",
     target: "_blank",
     rel: "noopener noreferrer",
   },
