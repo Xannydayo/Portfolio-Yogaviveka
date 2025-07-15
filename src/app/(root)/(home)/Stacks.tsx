@@ -31,21 +31,10 @@ export default function Stacks() {
         <h2 className="font-bold">Stacks</h2>
       </div>
 
-      <div className="flex flex-col gap-2">
-        <MarqueeElement direction="left">
-          <div className={clsx("flex w-full flex-nowrap gap-6 px-8")}>
-            {stacksRow1.map(([name, icon], index) => (
-              <StackCard key={"row1-" + index} name={name} icon={icon} />
-            ))}
-          </div>
-        </MarqueeElement>
-        <MarqueeElement direction="right">
-          <div className={clsx("flex w-full flex-nowrap gap-6 px-8")}>
-            {stacksRow2.map(([name, icon], index) => (
-              <StackCard key={"row2-" + index} name={name} icon={icon} />
-            ))}
-          </div>
-        </MarqueeElement>
+      <div className={clsx("flex w-full flex-wrap justify-center gap-6 px-8")}>
+        {Object.entries(STACKS).map(([name, icon], index) => (
+          <StackCard key={index} name={name} icon={icon} />
+        ))}
       </div>
     </motion.section>
   );
