@@ -1,11 +1,9 @@
 <!-- GitAds-Verify: DBW8G884X4K725U9YJY8NEG65BPFJJKJ -->
-## GitAds Sponsored
-[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=vernsg/yusufporto@github)](https://gitads.dev/v1/ad-track?source=vernsg/yusufporto@github)
 
 
 <div align=center>
 
-# [yusufs.me](https://yusufs.me/)
+
 
 `Next JS`
 
@@ -20,13 +18,13 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/VernSG/yusufporto.git
+  git clone https://github.com/Xannydayo/Portfolio-Yogaviveka
 ```
 
 Go to the project directory
 
 ```bash
-  cd yusufporto
+  cd Portfolio-Yogaviveka
 ```
 
 Install dependencies
@@ -84,4 +82,6 @@ To run this project, you will need to add the following environment variables to
 [andre](https://github.com/ndrvndr)
 
 [xyzuan](https://github.com/xyzuan)
+
+[VernSG](https://github.com/VernSG)
 t
