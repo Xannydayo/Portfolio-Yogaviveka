@@ -17,7 +17,7 @@ export const CONTACT_ITEMS = [
   },
   {
     icon: <FiLinkedin size={ICON_SIZE} />,
-    url: "https://www.linkedin.com/in/muhammad-yusuf-saputra/",
+    url: "https://www.linkedin.com/in/yogaviveka/",
     label: "LinkedIn",
     backgroundColor: "#0A66C2",
   },

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import ColorPalette from "./ColorPalette";
 
 export const metadata: Metadata = {
-  title: "Design | Muhammad Yusuf",
+  title: "Design | Yoga Viveka",
   description:
     "Explore my design page to dive into the world of colors that define my website. Discover the rich and diverse color palette that fuels my web aesthetics. Learn how I use color to create a visually captivating online experience.",
   alternates: {

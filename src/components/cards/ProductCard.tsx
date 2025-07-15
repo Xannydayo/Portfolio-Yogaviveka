@@ -28,46 +28,40 @@ export default function ProductCard({
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.3, duration: 0.4 }}
       className={clsx(
-        "w-full p-4 sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2", // Wrapper styles
+        "border border-red-200 bg-white/70 backdrop-blur-lg",
+        "rounded-3xl p-6 shadow-2xl transition-transform duration-200 hover:scale-105 hover:shadow-red-200",
+        "w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2",
       )}
     >
       <Link href={`/products/${slug}`} legacyBehavior>
-        <a
-          className={clsx(
-            "rounded-lg border border-gray-200 shadow-lg",
-            "overflow-hidden bg-white dark:bg-neutral-800",
-            "group flex h-full flex-col", // Ensure the card fills the available height
-          )}
-        >
+        <a className={clsx("group flex h-full flex-col", "overflow-hidden")}>
           {image && (
             <Image
               src={image}
               alt={title}
               width={1200}
               height={600}
-              className="w-full object-cover"
+              className="mb-4 w-full rounded-2xl border-2 border-red-100 object-cover"
             />
           )}
-          <div className="flex-grow p-4">
+          <div className="flex-grow">
             <div className="mb-2 flex flex-wrap gap-2">
               {tags?.map((tag: any) => (
                 <span
                   key={tag}
-                  className="rounded-full bg-gray-200 px-2 py-1 text-xs font-medium text-gray-700 dark:bg-gray-700 dark:text-gray-200"
+                  className="rounded-full bg-red-100 px-3 py-1 text-xs font-bold text-red-700 shadow-sm"
                 >
                   {tag}
                 </span>
               ))}
             </div>
-            <h2 className="text-lg font-semibold text-gray-800 group-hover:underline dark:text-gray-200">
+            <h2 className="mb-1 text-xl font-extrabold text-red-700 group-hover:underline">
               {title}
             </h2>
             <p className="mt-1 text-xs text-gray-500">
               {format(new Date(publishedAt), "MMMM dd, yyyy")}
             </p>
-            <p className="mt-2 flex-grow text-sm text-gray-600 dark:text-gray-400">
-              {summary}
-            </p>
+            <p className="mt-2 flex-grow text-base text-gray-700">{summary}</p>
           </div>
         </a>
       </Link>

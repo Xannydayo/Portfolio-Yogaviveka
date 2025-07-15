@@ -16,6 +16,10 @@ import {
   SiTailwindcss,
   SiVite,
   SiMysql,
+  SiBootstrap,
+  SiVuedotjs,
+  SiAlpinedotjs,
+  SiGit,
 } from "react-icons/si";
 
 import { FaLaravel } from "react-icons/fa";
@@ -40,9 +44,12 @@ export const STACKS: stacksProps = {
   Vite: <SiVite size={ICON_SIZE} color="#689EFE" />,
   SASS: <SiSass size={ICON_SIZE} color="#CE649B" />,
   Firebase: <SiFirebase size={ICON_SIZE} color="#FFCA2F" />,
-  "Framer Motion": <SiFramer size={ICON_SIZE} />,
   HTML: <SiHtml5 size={ICON_SIZE} color="#F06525" />,
   CSS: <SiCss3 size={ICON_SIZE} color="#214CE5" />,
   "Node JS": <SiNodedotjs size={ICON_SIZE} color="#418A3F" />,
   Github: <SiGithub size={ICON_SIZE} />,
+  Bootstrap: <SiBootstrap size={ICON_SIZE} color="#7952B3" />,
+  Vue: <SiVuedotjs size={ICON_SIZE} color="#42b883" />,
+  Alpine: <SiAlpinedotjs size={ICON_SIZE} color="#8BC0D0" />,
+  Git: <SiGit size={ICON_SIZE} color="#F1502F" />,
 };

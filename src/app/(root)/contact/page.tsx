@@ -4,7 +4,7 @@ import EmailForm from "./EmailForm";
 import SocialMediaLinks from "./SocialMediaLinks";
 
 export const metadata: Metadata = {
-  title: "Contact | Muhammad Yusuf",
+  title: "Contact | Yoga Viveka",
   description:
     "Get in touch with me through our contact page, where you can find links to my social media profiles and a convenient email form. Don't hesitate to reach out—I'm here to connect and ready to respond to your messages.",
   alternates: {

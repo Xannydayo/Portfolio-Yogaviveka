@@ -22,12 +22,12 @@ export default function SidebarHeader() {
         />
 
         <div className="hidden flex-col lg:flex">
-          <h2 className="primary text-base font-medium md:text-lg">Yusuf</h2>
-          <p className="secondary text-sm md:text-base">Saputra</p>
+          <h2 className="primary text-base font-medium md:text-lg">
+            I Gusti Putu
+          </h2>
+          <p className="secondary text-sm md:text-base">Bagus Raditya</p>
         </div>
       </div>
-
-      <ThemeButton />
     </header>
   );
 }

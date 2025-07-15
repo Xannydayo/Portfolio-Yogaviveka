@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import PageSpeed from "./PageSpeed";
 
 export const metadata: Metadata = {
-  title: "Audits | Muhammad Yusuf",
+  title: "Audits | Yoga Viveka",
   description:
     "Explore real-time performance reports for yusufsaputra.vercel.app, powered by the Pagespeed API",
   alternates: {

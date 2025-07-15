@@ -11,7 +11,7 @@ export const DISOCRD_PROFILE =
 
 export const BLOG_API_ENDPOINT =
   process.env.NODE_ENV === "production"
-    ? "https://yusufsaputra.vercel.app/api/blog"
+    ? "https://yogaviveka.vercel.app/api/blog"
     : "http://localhost:3000/api/blog";
 
 export const PAGESPEED_CATEGORIES =

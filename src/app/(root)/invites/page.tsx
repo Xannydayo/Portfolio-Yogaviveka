@@ -15,7 +15,7 @@ export default function Invite() {
         description="Click the button below to invite my Discord bot to your server and enhance your Discord experience with various features and commands."
       />
       <section className="lg:mb-20">
-        <UserProfile />
+        {/* <UserProfile /> */}
         <div className="mt-6 flex justify-center">
           <a
             href={inviteUrl}

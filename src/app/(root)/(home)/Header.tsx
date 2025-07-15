@@ -20,8 +20,8 @@ export default function Header() {
       />
 
       <div className="flex flex-col gap-1">
-        <h2 className="primary font-medium md:text-lg">Yusuf</h2>
-        <p className="secondary text-sm md:text-base">Saputra</p>
+        <h2 className="primary font-medium md:text-lg">Yoga</h2>
+        <p className="secondary text-sm md:text-base">Viveka</p>
       </div>
     </motion.header>
   );

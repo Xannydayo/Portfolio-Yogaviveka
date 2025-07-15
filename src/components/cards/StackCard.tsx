@@ -10,11 +10,11 @@ export default function StackCard({ name, icon }: StackCardProps) {
     <div className="px-2">
       <div
         className={clsx(
-          "border__gradient",
-          "w-full px-4 py-2",
-          "text-sm font-medium md:text-base",
-          "flex items-center gap-2",
-          "rounded-md",
+          "border border-red-200 bg-white/70 backdrop-blur-lg",
+          "w-full px-6 py-3",
+          "text-base font-bold text-red-700",
+          "flex items-center gap-3",
+          "rounded-2xl shadow-lg transition-all duration-200 hover:scale-105 hover:shadow-red-200",
         )}
       >
         {icon}

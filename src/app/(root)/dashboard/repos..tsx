@@ -11,7 +11,7 @@ const Repos: React.FC = () => {
   useEffect(() => {
     const fetchRepos = async () => {
       try {
-        const res = await fetch("https://api.github.com/users/vernsg/repos"); // Username GitHub Anda
+        const res = await fetch("https://api.github.com/users/xannydayo/repos"); // Username GitHub baru
         if (!res.ok) {
           throw new Error("Failed to fetch repositories");
         }

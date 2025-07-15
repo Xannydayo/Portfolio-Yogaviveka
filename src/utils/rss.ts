@@ -9,14 +9,14 @@ export default async function generateRssFeed(allBlogs: BlogItem[]) {
       : "http://localhost:3000";
 
   const FEED_OPTIONS = {
-    title: "Yusuf Saputra",
+    title: "Yoga Viveka",
     description:
-      "The Yusuf Saputra Blog, thoughts, mental models, and tutorials about front-end development.",
+      "The Yoga Viveka Blog, thoughts, mental models, and tutorials about front-end development.",
     site_url: SITE_URL,
     feed_url: `${SITE_URL}/rss.xml`,
     image_url: `${SITE_URL}/metaImage.svg`,
     pubDate: new Date(),
-    copyright: `copyright © Yusuf Saputra ${new Date().getFullYear()}`,
+    copyright: `copyright © Yoga Viveka ${new Date().getFullYear()}`,
   };
 
   const feed = new RSS(FEED_OPTIONS);

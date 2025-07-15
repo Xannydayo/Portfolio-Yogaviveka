@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 import Search from "./Search"; // Import the Search component
 
 export const metadata: Metadata = {
-  title: "Blog | Muhammad Yusuf",
+  title: "Blog | Yoga Viveka",
   description:
     "Reflections, cognitive models, and instructional content related to the realm of web development. Adapt your mental framework to bring more predictability to web development.",
   alternates: {

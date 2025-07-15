@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import DiscussionSection from "./DiscussionSection";
 
 export const metadata: Metadata = {
-  title: "Guestbook | Muhammad Yusuf",
+  title: "Guestbook | Yoga Viveka",
   description:
     "Feel free to share your thoughts, expressions of appreciation, and suggestions on the guestbook page. Leave behind any messages or comments you'd like to convey. Your words are valuable, and I look forward to hearing from you.",
   alternates: {

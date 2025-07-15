@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import Search from "./Search";
 
 export const metadata: Metadata = {
-  title: "Product | Muhammad Yusuf",
+  title: "Product | Yoga Viveka",
   description:
     "Reflections, cognitive models, and instructional content related to the realm of web development. Adapt your mental framework to bring more predictability to web development.",
   alternates: {

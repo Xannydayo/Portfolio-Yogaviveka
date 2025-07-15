@@ -41,15 +41,6 @@ const DashboardsPage = async () => {
           title="Dashboard"
           description="This is my personal dashboard, built with Next.js API routes deployed as serverless functionsn."
         />
-        <div className="space-y-3">
-          <h4 className="flex items-center gap-3 font-normal">
-            <ClockIcon height={24} width={24} />
-            Weekly Statistic
-          </h4>
-          <p>My WakaTime last 7 days stats.</p>
-          <WakatimeOverview data={wakatime} />
-          <WakatimeActive data={wakatime} />
-        </div>
         <div className="mt-6 space-y-3">
           <h4 className="flex items-center gap-3 font-normal">
             <GitHubLogoIcon height={24} width={24} />
@@ -61,12 +52,24 @@ const DashboardsPage = async () => {
               <p>{`@${GITHUB_ACCOUNTS[0].username}`}</p>
             </Link>
           </div>
-          <GithubOverview
-            data={github?.data?.contributionsCollection?.contributionCalendar}
-          />
-          <GithubCalendar
-            data={github?.data?.contributionsCollection?.contributionCalendar}
-          />
+          {/* GitHub Stats Cards (replace custom stats) */}
+          <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2">
+            <img
+              src="https://github-readme-stats.vercel.app/api?username=xannydayo&show_icons=true&locale=en"
+              alt="xannydayo github stats"
+              className="rounded-lg shadow"
+            />
+            <img
+              src="https://github-readme-streak-stats.herokuapp.com/?user=xannydayo"
+              alt="xannydayo github streak"
+              className="rounded-lg shadow"
+            />
+            <img
+              src="https://github-readme-stats.vercel.app/api/top-langs/?username=xannydayo&layout=compact"
+              alt="xannydayo top languages"
+              className="rounded-lg shadow"
+            />
+          </div>
           {/* <Repos /> */}
         </div>
       </div>

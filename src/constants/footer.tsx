@@ -12,14 +12,14 @@ export const FOOTER_ITEMS = [
   },
   {
     icon: <FiLinkedin size={ICON_SIZE} />,
-    href: "https://www.linkedin.com/in/muhammad-yusuf-saputra",
+    href: "https://www.linkedin.com/in/yogaviveka",
     ariaLabel: "LinkedIn",
     target: "_blank",
     rel: "noopener noreferrer",
   },
   {
     icon: <FiGithub size={ICON_SIZE} />,
-    href: "https://github.com/VernSG",
+    href: "https://github.com/Xannydesu",
     ariaLabel: "GitHub",
     target: "_blank",
     rel: "noopener noreferrer",
@@ -30,13 +30,13 @@ export const FOOTER_LINKS = [
   {
     label: "Source Code",
     toolTip: "This website is open source.",
-    url: "https://github.com/VernSG/yusufporto",
+    url: "https://github.com/Xannydesu/",
     target: "_blank",
     rel: "noopener noreferrer",
   },
   {
     label: "Design",
-    toolTip: "yusufsaputra.site color palette.",
+    toolTip: "yogaviveka.site color palette.",
     url: "/design",
     target: "",
     rel: "",
@@ -52,22 +52,15 @@ export const FOOTER_LINKS = [
   {
     label: "Starter Templates",
     toolTip: "Starter Templates",
-    url: "https://github.com/VernSG",
+    url: "https://github.com/Xannydayo",
     target: "_blank",
     rel: "noopener noreferrer",
   },
   {
     label: "Audits",
     toolTip:
-      "Real-time performance report for yusufsaputra.vercel.app based on the Pagespeed API",
+      "Real-time performance report for yogaviveka.vercel.app based on the Pagespeed API",
     url: "/audits",
-    target: "",
-    rel: "",
-  },
-  {
-    label: "Certificate",
-    toolTip: "All list of my certificate",
-    url: "/certificate",
     target: "",
     rel: "",
   },

@@ -29,26 +29,10 @@ export default function Stacks() {
         <h2 className="font-bold">Stacks</h2>
       </div>
 
-      <div
-        className={clsx(
-          "flex flex-col",
-          "md:max-w-[calc(100vw-156px)]",
-          "lg:max-w-[720px]",
-        )}
-      >
-        {Array.from({ length: 2 }, (_, index) => {
-          const slider = [...stacksInArray].sort(() => Math.random() - 0.5);
-          return (
-            <MarqueeElement
-              key={index}
-              direction={index % 2 === 0 ? "left" : "right"}
-            >
-              {slider.map(([name, icon], index) => (
-                <StackCard key={index} name={name} icon={icon} />
-              ))}
-            </MarqueeElement>
-          );
-        })}
+      <div className={clsx("flex w-full flex-wrap justify-center gap-6 px-8")}>
+        {Object.entries(STACKS).map(([name, icon], index) => (
+          <StackCard key={index} name={name} icon={icon} />
+        ))}
       </div>
     </motion.section>
   );

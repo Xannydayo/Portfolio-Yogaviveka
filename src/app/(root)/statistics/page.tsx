@@ -2,7 +2,7 @@ import PageTitle from "@/components/elements/PageTitle";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Statistics | Muhammad Yusuf",
+  title: "Statistics | Yoga Viveka",
   description: "Metadata statistics of andreavindra.vercel.app blogs",
   alternates: {
     canonical: "https://yusufs.me/statistics",

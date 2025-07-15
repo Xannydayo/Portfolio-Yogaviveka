@@ -8,6 +8,7 @@ export default function Sidebar() {
   return (
     <div
       className={clsx(
+        "sidebar", // tambahkan class sidebar
         "sticky top-0 hidden",
         "ml-8 h-screen w-fit pt-8",
         "md:block",
@@ -16,7 +17,7 @@ export default function Sidebar() {
     >
       <SidebarHeader />
       <BreakLine decoration="border-dashed" />
-      <SidebarNav />
+      <SidebarNav menuItemClass="menu-item" iconClass="icon" />
       <BreakLine classname="md:hidden lg:block" />
       <Callsign display="md:hidden lg:flex" />
     </div>

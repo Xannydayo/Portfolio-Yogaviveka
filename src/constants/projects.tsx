@@ -1,106 +1,83 @@
 import {
-  SiFirebase,
-  SiReact,
+  SiLaravel,
+  SiVite,
   SiTailwindcss,
-  SiPhp,
   SiMysql,
-  SiNextdotjs,
-  SiPrisma,
+  SiAlpinedotjs,
+  SiLivewire,
+  SiVuedotjs,
 } from "react-icons/si";
 
 const ICON_SIZE: number = 24;
 
-export const TECH_STACK_SIZE = [
+const TECH_STACK_SAYURID = [
+  { label: "Laravel", icon: <SiLaravel size={ICON_SIZE} color="#FF2D20" /> },
+  { label: "Vite", icon: <SiVite size={ICON_SIZE} color="#646CFF" /> },
   {
-    label: "React.js",
-    icon: <SiReact />,
+    label: "Tailwind CSS",
+    icon: <SiTailwindcss size={ICON_SIZE} color="#38BDF8" />,
   },
+  { label: "Vue.js", icon: <SiVuedotjs size={ICON_SIZE} color="#42B883" /> },
+  { label: "MySQL", icon: <SiMysql size={ICON_SIZE} color="#00758F" /> },
+];
+
+const TECH_STACK_ANIMEHUB = [
+  { label: "Laravel", icon: <SiLaravel size={ICON_SIZE} color="#FF2D20" /> },
+  { label: "MySQL", icon: <SiMysql size={ICON_SIZE} color="#00758F" /> },
+];
+
+const TECH_STACK_TALLCASH = [
   {
     label: "Tailwind CSS",
     icon: <SiTailwindcss size={ICON_SIZE} color="#38BDF8" />,
   },
   {
-    label: "Firebase",
-    icon: <SiFirebase size={ICON_SIZE} color="#016949" />,
+    label: "Alpine.js",
+    icon: <SiAlpinedotjs size={ICON_SIZE} color="#8BC0D0" />,
   },
+  { label: "Laravel", icon: <SiLaravel size={ICON_SIZE} color="#FF2D20" /> },
+  { label: "Livewire", icon: <SiLivewire size={ICON_SIZE} color="#4E1AFA" /> },
+  { label: "MySQL", icon: <SiMysql size={ICON_SIZE} color="#00758F" /> },
 ];
 
-export const TECH_STACK_IRMA = [
-  {
-    label: "Next JS",
-    icon: <SiNextdotjs size={ICON_SIZE} color="" />,
-  },
-  {
-    label: "Tailwind CSS",
-    icon: <SiTailwindcss size={ICON_SIZE} color="#38BDF8" />,
-  },
-  {
-    label: "Prisma ORM",
-    icon: <SiPrisma size={ICON_SIZE} color="" />,
-  },
-];
-
-export const TECH_STACK_OGE = [
-  {
-    label: "PHP",
-    icon: <SiPhp size={ICON_SIZE} color="#38BDF8" />,
-  },
-  {
-    label: "MySQL",
-    icon: <SiMysql size={ICON_SIZE} color="#38BDF8" />,
-  },
-];
-
-export const TECH_STACK_ANIME = [
-  {
-    label: "Next JS",
-    icon: <SiNextdotjs size={ICON_SIZE} color="" />,
-  },
-  {
-    label: "Tailwind CSS",
-    icon: <SiTailwindcss size={ICON_SIZE} color="#38BDF8" />,
-  },
-  {
-    label: "Prisma",
-    icon: <SiPrisma size={ICON_SIZE} color="" />,
-  },
+const TECH_STACK_TOKOONLINE = [
+  { label: "Laravel", icon: <SiLaravel size={ICON_SIZE} color="#FF2D20" /> },
+  { label: "MySQL", icon: <SiMysql size={ICON_SIZE} color="#00758F" /> },
 ];
 
 export const PROJECTCARD_CONTENTS = [
   {
-    url: "https://irma-management-system.vercel.app",
-    techStack: TECH_STACK_IRMA,
-    name: "Irma Management System",
+    url: "https://github.com/Xannydayo/Animehub.github.io",
+    techStack: TECH_STACK_ANIMEHUB,
+    name: "AnimeHub",
+    description: "Platform streaming anime dengan Laravel dan MySQL.",
+    image: "/animehub.png",
+    imageAlt: "AnimeHub",
+  },
+  {
+    url: "https://github.com/Xannydayo/tallstash",
+    techStack: TECH_STACK_TALLCASH,
+    name: "TallCash",
     description:
-      "Management System for Irma Miftahul Huda with Next.js and Tailwind CSS",
-    image: "/irma.webp",
-    imageAlt: "Irma Anime",
+      "Aplikasi keuangan dengan Tailwind, Alpine.js, Laravel, Livewire, dan MySQL.",
+    image: "/tallcash.png",
+    imageAlt: "TallCash",
   },
   {
-    url: "https://mangaverse-gamma.vercel.app",
-    techStack: TECH_STACK_ANIME,
-    name: "MangaVerse",
-    description: "Read Manga, Manhwa and Manhua with Next.js and Tailwind CSS",
-    image:
-      "https://res.cloudinary.com/djsdnb4td/image/upload/v1743945192/6802C4FF-2DBE-46D5-866B-F57DD33A0026_peoomp.png",
-    imageAlt: "MangaVerse",
+    url: "https://github.com/Xannydayo/Toko-online",
+    techStack: TECH_STACK_TOKOONLINE,
+    name: "TokoOnline",
+    description: "Sistem toko online berbasis MySQL.",
+    image: "/tokoonline.png",
+    imageAlt: "TokoOnline",
   },
   {
-    url: "https://sizestore.site",
-    name: "SizeStore Landing Page",
-    description: "Landing page size store with React.js and Tailwind CSS",
-    techStack: TECH_STACK_SIZE,
-    image:
-      "https://res.cloudinary.com/djsdnb4td/image/upload/v1742243652/daily_vlog_yrzeav.png",
-    imageAlt: "SizeStore Landing Page",
-  },
-  {
-    url: "",
-    techStack: TECH_STACK_OGE,
-    name: "POS OGE CASE",
-    description: "POS OGE CASE with PHP and MYSQL",
-    image:
-      "https://res.cloudinary.com/djsdnb4td/image/upload/v1742390806/daily_vlog_2_de3sjv.png",
-    imageAlt: "POS OGE CASE",
-  },
+    url: "https://github.com/Xannydayo/Sayur-id_laravel",
+    techStack: TECH_STACK_SAYURID,
+    name: "Sayurid",
+    description:
+      "Aplikasi Sayurid dengan Laravel, Vite, Tailwind, Vue, dan MySQL.",
+    image: "/sayurid.png",
+    imageAlt: "Sayurid",
+  }, 
 ];

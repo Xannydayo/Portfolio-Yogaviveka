@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import SubscribeSection from "./SubsribeSection";
 
 export const metadata: Metadata = {
-  title: "Subscribe | Muhammad Yusuf",
+  title: "Subscribe | Yoga Viveka",
   description:
     "Stay informed and receive email notifications whenever a new blog post is published. Subscribe to stay up-to-date with the latest content, delivered right to your inbox. Rest assured, we respect your privacy - no spam.",
   alternates: {

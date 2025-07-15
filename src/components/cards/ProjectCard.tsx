@@ -22,12 +22,9 @@ export default function ProjectCard({
       animate={{ opacity: 1 }}
       transition={{ delay: 0.3 }}
       className={clsx(
-        "border__color",
-        "rounded-md",
-        "bg-transparent shadow-lg",
-        "transition-transform duration-200",
-        "dark:bg-neutral-800 dark:shadow-none",
-        "lg:hover:scale-[1.03]",
+        "border border-red-200 bg-white/70 backdrop-blur-lg",
+        "rounded-3xl p-6 shadow-2xl transition-transform duration-200 hover:scale-105 hover:shadow-red-200",
+        "w-full",
       )}
     >
       <Link
@@ -35,12 +32,14 @@ export default function ProjectCard({
         target="_blank"
         rel="noopener noreferrer"
         aria-label={`Visit ${title} live production demo`}
-        className={clsx("group cursor-pointer", "flex flex-col", "h-full")}
+        className={clsx(
+          "group flex h-full cursor-pointer flex-col overflow-hidden",
+        )}
         legacyBehavior
       >
         <div>
           <Image
-            className="h-full w-full rounded-t-md object-cover"
+            className="mb-4 h-full w-full rounded-2xl border-2 border-red-100 object-cover"
             width={1920}
             height={1080}
             src={image}
@@ -48,6 +47,12 @@ export default function ProjectCard({
             loading="lazy"
             aria-label={`Live ${title} Production Screenshot`}
           />
+          <div className="flex-grow">
+            <h2 className="mb-1 text-xl font-extrabold text-red-700 group-hover:underline">
+              {title}
+            </h2>
+            <p className="mt-2 text-base text-gray-700">{description}</p>
+          </div>
         </div>
       </Link>
 

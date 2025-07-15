@@ -94,58 +94,93 @@ export const TECH_STACK_BTH = [
 ];
 export const PROJECTCARD_CONTENTS = [
   {
-    url: "",
-    name: "Website landing pages competition participation",
-    description: "Participation web landing pages FESIFO2024",
-    techStack: TECH_STACK_LOMBA,
-    image:
-      "https://res.cloudinary.com/djsdnb4td/image/upload/v1726273904/IMG-20240914-WA0002_kcgxlr.jpg",
-    imageAlt: "Javascript",
-  },
-  {
-    url: "",
-    name: "Speaker – TechTalk #6: AI Prompting",
+    image: "/sertif/sertif1.png",
+    name: "Database Design & Database Programming with SQL (TSA Kominfo)",
     description:
-      "Demonstrated a mobile-friendly landing page for a boba MSME and shared insights on AI and automation for digital marketing.",
-    techStack: TECH_STACK_BTH,
-    image:
-      "https://res.cloudinary.com/djsdnb4td/image/upload/v1746227720/TechTalk_6_Muhammad_Yusuf_Saputra_eccyms.png",
-    imageAlt: "Javascript",
+      "Sertifikat pelatihan Database Design & Database Programming with SQL dari Kominfo Talent Scouting Academy.",
+    url: "",
+    techStack: [],
+    imageAlt: "Database Design & SQL TSA Kominfo",
   },
   {
-    url: "https://www.dicoding.com/certificates/0LZ0269LNX65",
-    name: "Introduction to Programming using Javascript",
-    description: "Diterbitkan Jan 2024 Kadaluarsa Jan 2027.",
-    techStack: TECH_STACK_JS,
-    image:
-      "https://res.cloudinary.com/djsdnb4td/image/upload/v1716118348/js_kgmcg2.png",
-    imageAlt: "Javascript",
+    image: "/sertif/sertif2.png",
+    name: "Belajar Dasar Pemrograman Web (Dicoding)",
+    description:
+      "Sertifikat kelulusan kelas Belajar Dasar Pemrograman Web dari Dicoding.",
+    url: "",
+    techStack: [],
+    imageAlt: "Belajar Dasar Pemrograman Web Dicoding",
   },
   {
-    url: "https://www.dicoding.com/certificates/72ZDV7OWQZYW",
-    name: "Cloud Practitioner Essentials",
-    description: "Diterbitkan Mei 2024 Kadaluarsa Mei 2027",
-    techStack: TECH_STACK_AWS,
-    image:
-      "https://res.cloudinary.com/djsdnb4td/image/upload/v1716118331/aws_zqzgbk.png",
-    imageAlt: "Dicoding Website Screenshot",
+    image: "/sertif/sertif3.png",
+    name: "Belajar Dasar Pemrograman JavaScript (Dicoding)",
+    description:
+      "Sertifikat kelulusan kelas Belajar Dasar Pemrograman JavaScript dari Dicoding.",
+    url: "",
+    techStack: [],
+    imageAlt: "Belajar Dasar Pemrograman JavaScript Dicoding",
   },
   {
-    url: "https://www.dicoding.com/certificates/KEXL1L53YXG2",
-    name: "Belajar Membuat Aplikasi Back-End untuk Pemula",
-    description: "Diterbitkan Mei 2024 Kadaluarsa Mei 2027",
-    techStack: TECH_STACK_BE,
-    image:
-      "https://res.cloudinary.com/djsdnb4td/image/upload/v1716118332/be_o69t8x.png",
-    imageAlt: "Dicoding Website Screenshot",
+    image: "/sertif/sertif4.png",
+    name: "Belajar Membuat Front-End Web untuk Pemula (Dicoding)",
+    description:
+      "Sertifikat kelulusan kelas Belajar Membuat Front-End Web untuk Pemula dari Dicoding.",
+    url: "",
+    techStack: [],
+    imageAlt: "Belajar Membuat Front-End Web Dicoding",
   },
   {
-    url: "https://www.dicoding.com/certificates/53XEOQL29ZRN",
-    name: "Belajar Dasar Pemrograman Web",
-    description: "Diterbitkan Mei 2024 Kadaluarsa Mei 2027",
-    techStack: TECH_STACK_WEB,
-    image:
-      "https://res.cloudinary.com/djsdnb4td/image/upload/v1717136316/abstact_maytw7.jpg",
-    imageAlt: "Dicoding Website Screenshot",
+    image: "/sertif/sertif5.png",
+    name: "Networking Devices and Initial Configuration (Cisco)",
+    description:
+      "Certificate of Course Completion: Networking Devices and Initial Configuration dari Cisco Networking Academy.",
+    url: "",
+    techStack: [],
+    imageAlt: "Cisco Networking Devices and Initial Configuration",
+  },
+  {
+    image: "/sertif/sertif6.png",
+    name: "Networking Basics (Cisco)",
+    description:
+      "Certificate of Course Completion: Networking Basics dari Cisco Networking Academy.",
+    url: "",
+    techStack: [],
+    imageAlt: "Cisco Networking Basics",
+  },
+  {
+    image: "/sertif/sertif7.png",
+    name: "Junior Cybersecurity Analyst Career Path (Cisco)",
+    description:
+      "Certificate of Completion: Junior Cybersecurity Analyst Career Path dari Cisco Networking Academy.",
+    url: "",
+    techStack: [],
+    imageAlt: "Cisco Junior Cybersecurity Analyst",
+  },
+  {
+    image: "/sertif/sertif8.png",
+    name: "Introduction to Cybersecurity (Cisco)",
+    description:
+      "Certificate of Course Completion: Introduction to Cybersecurity dari Cisco Networking Academy.",
+    url: "",
+    techStack: [],
+    imageAlt: "Cisco Introduction to Cybersecurity",
+  },
+  {
+    image: "/sertif/sertif9.png",
+    name: "Database Programming with SQL (Oracle Academy)",
+    description:
+      "Penghargaan Penyelesaian Kursus Database Programming with SQL dari Oracle Academy.",
+    url: "",
+    techStack: [],
+    imageAlt: "Oracle Database Programming with SQL",
+  },
+  {
+    image: "/sertif/sertif10.png",
+    name: "Database Design (Oracle Academy)",
+    description:
+      "Penghargaan Penyelesaian Kursus Database Design dari Oracle Academy.",
+    url: "",
+    techStack: [],
+    imageAlt: "Oracle Database Design",
   },
 ];

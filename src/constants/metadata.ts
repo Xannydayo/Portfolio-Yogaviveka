@@ -1,12 +1,12 @@
 export const DEFAULT_METADATA = {
-  creator: "Muhammad Yusuf",
+  creator: "Yoga Viveka",
   robots: "index, follow",
   description:
-    "Personal website and blog by Muhammad Yusuf. Showcase of my projects, thoughts and skills on website development.",
+    "Personal website and blog by Yoga Viveka. Showcase of my projects, thoughts and skills on website development.",
   keyword:
-    "yusuf, muhammad yusuf, learn nextjs, learn javascript, learn typescript",
-  siteName: "yusufs.me",
-  url: "https://yusufs.me/",
+    "yogaviveka, yoga viveka, learn nextjs, learn javascript, learn typescript",
+  siteName: "yogaviveka.me",
+  url: "https://yogaviveka.me/",
   image: "/metaImage.svg",
   locale: "id-ID",
 };

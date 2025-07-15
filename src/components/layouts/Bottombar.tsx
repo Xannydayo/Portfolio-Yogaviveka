@@ -3,7 +3,6 @@ import { BOTTOMBAR_ITEMS } from "@/constants/bottombar";
 import clsx from "clsx";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import ThemeButton from "../elements/ThemeButton";
 
 export default function Bottombar() {
   const pathname = usePathname();
@@ -40,16 +39,6 @@ export default function Bottombar() {
           </Link>
         );
       })}
-
-      <div
-        className={clsx(
-          "ml-0.5 h-6",
-          "border-r border-solid border-neutral-200",
-          "dark:border-neutral-800",
-        )}
-      />
-
-      <ThemeButton />
     </nav>
   );
 }
