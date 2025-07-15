@@ -11,7 +11,7 @@ const ICON_SIZE: number = 20;
 export const CONTACT_ITEMS = [
   {
     icon: <FiGithub size={ICON_SIZE} />,
-    url: "https://github.com/VernSG",
+    url: "https://github.com/xannydayo",
     label: "GitHub",
     backgroundColor: "#262626",
   },
@@ -23,7 +23,7 @@ export const CONTACT_ITEMS = [
   },
   {
     icon: <FiInstagram size={ICON_SIZE} />,
-    url: "https://www.instagram.com/thevoid.yamada",
+    url: "https://www.instagram.com/yogaviveka",
     label: "Instagram",
     backgroundColor: "linear-gradient(to right, #f9ce34, #ee2a7b, #6228d7)",
   },
