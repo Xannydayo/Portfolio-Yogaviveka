@@ -15,4 +15,5 @@ export const BOTTOMBAR_ITEMS = [
   { icon: <SiAboutdotme size={ICON_SIZE} />, pathname: "/about" },
   { icon: <AiOutlineProject size={ICON_SIZE} />, pathname: "/projects" },
   { icon: <BiSolidDashboard size={ICON_SIZE} />, pathname: "/dashboard" },
+  { icon: <GrCertificate size={ICON_SIZE} />, pathname: "/certificate" },
 ];
